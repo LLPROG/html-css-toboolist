@@ -9,13 +9,12 @@ html {
 }
 
 body {
-    background-color: wheat;
+    background-color: #f6f8f9;
 }
 
 main {
     margin:0 auto;
     width: 80%;
-    padding: 20px;
     margin-top: 30px;
 }
 
@@ -31,28 +30,34 @@ main {
 }
 
 .title {
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
-.bottoms {
+.logo {
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+}
+
+.buttoms {
     margin-bottom: 2px;
     background-color: white;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
-.bottom {
+.buttom {
     border-radius: 5px;
     padding: 5px;
     margin-right: 5px;
 }
 
-.bottom.left {
+.buttom.left {
     background-color: #47adf1;
     color: white;
-    border: 0;
+    border: 1px solid transparent;
 }
 
-.bottom.right {
+.buttom.right {
     background-color: white;
     color: #e0e4e6;
     border: 1px solid #e0e4e6;
@@ -60,31 +65,47 @@ main {
 
 .main-section {
     background-color: white;
-    padding: 20px;
+    padding: 40px;
 }
 
-/* .triangle {
-    font-size: 20px;
-    vertical-align: middle;
-} */
-
- .task-title::before {
-    position:relative;
-    top: 20px;
-    content: "\1F893";
-    font-size: 40px;
-} 
+.cont-title {
+    padding: 10px;
+}
 
 .task-title {
     margin-bottom: 10px;
+    display: inline;
+    vertical-align: middle;
+
+}
+
+.triangle {
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.cont-info {
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 .check {
+    margin: 0 5px 5px 0;
     padding: 2px;
     border: 2px solid #98d6c8;
     border-radius: 50%;
     color: #98d6c8;
 }
+
+.uncheck {
+    margin: 0 5px 5px 0;
+    padding: 2px;
+    border: 2px solid red;
+    border-radius: 50%;
+    color: red;
+}
+
+
 
 .edit {
     background-color: #45abea;
@@ -92,4 +113,24 @@ main {
     border-radius: 5px;
     font-size: 0.8em;
     color: white;
+}
+
+.violet {
+    background-color: #9c72e4;
+}
+
+.green {
+    background-color: #64c0a9;
+}
+
+.orange {
+    background-color: #f29e33;
+}
+
+.purple {
+    background-color: #d863a1;
+}
+
+.lightgreen {
+    background-color: #b0c926;
 }

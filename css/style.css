@@ -54,7 +54,8 @@ main {
 
 .bottom.right {
     background-color: white;
-    color: #e0e4e6
+    color: #e0e4e6;
+    border: 1px solid #e0e4e6;
 }
 
 .main-section {
@@ -62,3 +63,33 @@ main {
     padding: 20px;
 }
 
+/* .triangle {
+    font-size: 20px;
+    vertical-align: middle;
+} */
+
+ .task-title::before {
+    position:relative;
+    top: 20px;
+    content: "\1F893";
+    font-size: 40px;
+} 
+
+.task-title {
+    margin-bottom: 10px;
+}
+
+.check {
+    padding: 2px;
+    border: 2px solid #98d6c8;
+    border-radius: 50%;
+    color: #98d6c8;
+}
+
+.edit {
+    background-color: #45abea;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    color: white;
+}
